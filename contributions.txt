@@ -1,3 +1,4 @@
 Changes for 2024-09-30 - commit 1 : Update documentation
 Changes for 2024-09-30 - commit 2 : Fix navigation issue
 Changes for 2024-09-30 - commit 3 : Update UI components
+Changes for 2024-09-30 - commit 4 : Add validation
