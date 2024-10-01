@@ -16,3 +16,4 @@ Changes for 2024-10-01 - commit 1 : Optimize performance
 Changes for 2024-10-01 - commit 2 : Update styling
 Changes for 2024-10-01 - commit 3 : Fix bug in component
 Changes for 2024-10-01 - commit 4 : Update icons
+Changes for 2024-10-01 - commit 5 : Update form handling
