@@ -33,3 +33,4 @@ Changes for 2024-10-02 - commit 7 : Fix responsive design
 Changes for 2024-10-02 - commit 8 : Update API calls
 Changes for 2024-10-02 - commit 9 : Fix CSS issues
 Changes for 2024-10-02 - commit 10 : Add validation
+Changes for 2024-10-02 - commit 11 : Add new feature
