@@ -37,3 +37,4 @@ Changes for 2024-10-02 - commit 11 : Add new feature
 Changes for 2024-10-02 - commit 12 : Update dependencies
 Changes for 2024-10-02 - commit 13 : Update form handling
 Changes for 2024-10-02 - commit 14 : Update documentation
+Changes for 2024-10-02 - commit 15 : Fix navigation issue
