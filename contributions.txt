@@ -46,3 +46,4 @@ Changes for 2024-10-03 - commit 5 : Fix CSS issues
 Changes for 2024-10-03 - commit 6 : Add error handling
 Changes for 2024-10-03 - commit 7 : Fix memory leak
 Changes for 2024-10-03 - commit 8 : Fix responsive design
+Changes for 2024-10-03 - commit 9 : Update API calls
