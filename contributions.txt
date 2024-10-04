@@ -61,3 +61,4 @@ Changes for 2024-10-04 - commit 10 : Update documentation
 Changes for 2024-10-04 - commit 11 : Add error handling
 Changes for 2024-10-04 - commit 12 : Fix bug in component
 Changes for 2024-10-04 - commit 13 : Refactor code
+Changes for 2024-10-04 - commit 14 : Update form handling
