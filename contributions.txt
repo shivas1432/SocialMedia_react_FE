@@ -66,3 +66,4 @@ Changes for 2024-10-04 - commit 15 : Update icons
 Changes for 2024-10-05 - commit 1 : Add loading states
 Changes for 2024-10-05 - commit 2 : Fix CSS issues
 Changes for 2024-10-05 - commit 3 : Fix bug in component
+Changes for 2024-10-05 - commit 4 : Add dark mode
