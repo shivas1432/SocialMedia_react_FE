@@ -63,3 +63,4 @@ Changes for 2024-10-04 - commit 12 : Fix bug in component
 Changes for 2024-10-04 - commit 13 : Refactor code
 Changes for 2024-10-04 - commit 14 : Update form handling
 Changes for 2024-10-04 - commit 15 : Update icons
+Changes for 2024-10-05 - commit 1 : Add loading states
