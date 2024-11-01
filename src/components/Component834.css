@@ -1,0 +1,24 @@
+﻿.component-834 {
+  padding: 20px;
+  margin: 15px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.component-834 h2 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.component-834 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.component-834 li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
