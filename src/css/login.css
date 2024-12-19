@@ -1,0 +1,99 @@
+
+
+.social-media-login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transform: perspective(1000px) rotateY(3deg);
+    transition: transform 0.5s;
+    opacity: 90%;
+}
+
+.social-media-login-container:hover {
+    transform: perspective(1000px) rotateY(0deg);
+}
+
+.social-media-login-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border: 1px solid #4e54c8;
+    box-shadow: 0 0 5px rgba(78, 84, 200, 0.5);
+}
+
+.error-text {
+    color: red;
+    font-size: 12px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4e54c8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3a3e8f;
+}
+
+.account-actions,
+.create-account {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.create-account-link,
+.forgot-password-link {
+    color: #4e54c8;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.create-account-link:hover,
+.forgot-password-link:hover {
+    color: #3a3e8f;
+}
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transform: perspective(1000px);
+}

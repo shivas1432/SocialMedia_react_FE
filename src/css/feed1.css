@@ -1,0 +1,265 @@
+.feed-page {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.heading {
+    font-size: 2.5em; /* Large font size for prominence */
+    font-weight: bold; /* Bold text for emphasis */
+    color: #2c3e50; /* Darker color for professionalism */
+    text-align: center; /* Center the heading */
+    margin: 30px 0; /* Space above and below the heading */
+    text-transform: uppercase; /* Uppercase for a stronger look */
+    letter-spacing: 1px; /* Spacing between letters */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: color 0.3s ease; /* Smooth transition for color changes */
+}
+
+.heading:hover {
+    color: #2980b9; /* Change color on hover for interactivity */
+}
+
+.nickname,
+.bio,
+.tags {
+    font-size: 1.2em; /* Font size for nickname, tags, and bio */
+    color: #333; /* Dark color for readability */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* 3D effect */
+    margin: 5px 0; /* Space between items */
+}
+
+.profile-info {
+    text-align: center; /* Center the text */
+    margin-top: 10px; /* Space above */
+}
+
+.user-info {
+    width: 400px;
+    height: 620px; /* Width of the user info container */
+    margin-right: 20px; /* Spacing between user info and feed */
+    background-color: #fffdfd; /* Background color */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+}
+
+.profile-container1 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1; /* Make sure it fades in immediately */
+}
+
+.profile-container1 img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 10px;
+}
+
+.profile-picture-wrapper {
+    width: 220px;  /* Set the width */
+    height: 220px; /* Set the height */
+    position: relative; /* Allows positioning of child elements absolutely */
+    overflow: hidden; /* Ensures any overflow is hidden */
+    margin-bottom: 40px;
+}
+
+.profile-picture-wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-Picture{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+    transition: transform 0.3s;
+    width: 180px; /* Size of the profile picture */
+    height: 180px; /* Size of the profile picture */
+}
+
+.profile-Picture:hover {
+    transform: scale(1.05); /* Hover effect */
+}
+
+.profile-Picture img {
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    object-fit: cover; /* Cover the entire area */
+    object-position: center; /* Center the image */
+}
+
+
+.edit-button {
+    position: absolute; /* Position it in the top corner */
+    top: 5px; /* Adjust as needed */
+    right: 5px; /* Adjust as needed */
+    font-size: 0.8em; /* Smaller font size for the button */
+    padding: 5px 10px; /* Padding for better click area */
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; 
+    width: 100px;/* Pointer cursor on hover */
+    border-radius: 10%;
+}
+
+.edit-button:hover {
+    background-color: #0056b3; /* Darker on hover */
+}
+
+
+input[type="file"] {
+    margin-top: 10px; /* Space above file input */
+}
+
+.success-message {
+    color: green; /* Success message color */
+}
+
+.error {
+    color: red; /* Error message color */
+}
+
+
+.feed-container1 {
+    flex: 1; /* Takes up the remaining space */
+    max-width: 800px; /* Optional: maximum width for the feed */
+    background-color: #f1eded; /* Feed background */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feed-post1 {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly translucent background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Add some padding */
+    margin-bottom: 20px; /* Space between posts */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.feed-post1 h3 {
+    font-size: 1.5em; /* Larger font size for headings */
+    font-weight: bold; /* Bold text */
+    color: #333; /* Darker color for contrast */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.feed-post1 p {
+    color: black; /* Default text color */
+    font-size: 1em; /* Default font size */
+    line-height: 1.5; /* Increase line height for readability */
+}
+
+.feed-post1 p strong {
+    color: #007bff; /* Blue color for strong text */
+    font-weight: bold; /* Bold strong text */
+}
+
+.feed-post1 .engagement1 {
+    font-size: 0.9em; /* Slightly smaller font for engagement info */
+    color: #666; /* Lighter color for less emphasis */
+    margin-top: 10px; /* Space above engagement info */
+}
+
+.feed-post1:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+.bio {
+    text-align: left; /* Align text to the left */
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+.bio h2 {
+    font-size: 1.5em; /* Increase font size */
+    color: #333; /* Dark text color */
+    margin: 10px 0; /* Add vertical spacing between headings */
+    text-shadow: 
+                 0 0 5px rgba(255, 255, 255, 0.3); /* 3D text effect */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.bio h2:hover {
+    transform: translateY(-2px); /* Slight lift on hover */
+    text-shadow: 2px 2px 4px rgba(211, 180, 180, 0.7), 
+                 0 0 10px rgba(255, 255, 255, 0.5); /* Enhanced shadow on hover */
+}
+
+
+/* Optional: Add some spacing between the headings */
+.bio h2 + h2 {
+    margin-left: 20px; /* Space between headings */
+}
+
+
+.loading {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px;
+    color: #555;
+}
+.load-more {
+    width: 200px;
+    display: block;
+    margin: 20px auto; /* Center horizontally with some top/bottom margin */
+    padding: 10px; /* Optional: Add padding for better appearance */
+    text-align: center; /* Optional: Center text inside the button */
+}
+
+.feed-post1 h3 {
+    margin: 0;
+    color: #333;
+}
+
+.feed-post1 p {
+    margin: 5px 0;
+}
+
+.engagement1 {
+    font-weight: bold; /* Emphasized engagement metrics */
+    margin-top: 10px; /* Space above engagement section */
+}
+
+.engagement span {
+    margin-right: 10px;
+}
+
+.post-text {
+    font-size: 1em; /* Standard font size */
+    color: #555; /* Medium gray */
+}
+.post-sentiment,
+.post-timestamp,
+.post-hashtags,
+.post-location,
+.post-date {
+    font-size: 0.9em; /* Smaller font for details */
+    color: #777; /* Light gray for less emphasis */
+}
+.logout-button {
+    position: absolute; /* Position it at the top right */
+    top: 1px;
+    right: 20px;
+    background-color: #113af1; /* Red color for logout */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100px;
+}
+
+.logout-button:hover {
+    background-color: #984ff7; /* Darker red on hover */
+}
