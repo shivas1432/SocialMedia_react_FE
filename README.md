@@ -38,14 +38,14 @@ Install Backend Dependencies
 Navigate to the backend directory and install the dependencies:
 
 bash
-Copy code
+
 cd backend
 npm install
 Start Backend Server
 Run the backend server:
 
 bash
-Copy code
+
 npm run dev
 The backend will be available at http://localhost:8081.
 
@@ -54,14 +54,14 @@ Install Frontend Dependencies
 Navigate to the frontend directory and install the dependencies:
 
 bash
-Copy code
+
 cd frontend cd client
 npm install
 Start Frontend Server
 Run the frontend development server:
 
 bash
-Copy code
+
 npm start
 The frontend will be available at http://localhost:3000.
 
