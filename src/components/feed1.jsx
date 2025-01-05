@@ -41,9 +41,9 @@ const Feed1 = () => {
                 // Log the received data for debugging purposes
                 console.log('Received user details:', response.data);
 
-                // Check if ProfilePicture is a complete URL or just the file name
+                
                 const profilePictureUrl = ProfilePicture && ProfilePicture.startsWith('http')
-                    ? ProfilePicture // If it's already a full URL, use it
+                    ? ProfilePicture 
                     : `http://localhost:8081/uploads/${ProfilePicture}?t=${new Date().getTime()}`; // Append base URL if not a full URL
 
                 // Log the user details before setting state
@@ -52,7 +52,7 @@ const Feed1 = () => {
                     nickname: Nickname || 'N/A',
                     tags: Tags || 'N/A',
                     bio: Bio || 'N/A',
-                    profilePicture: profilePictureUrl, // Assign the correct profile picture URL
+                    profilePicture: profilePictureUrl, 
                 });
 
                 // Update userDetails state
@@ -61,7 +61,7 @@ const Feed1 = () => {
                     nickname: Nickname || 'N/A',
                     tags: Tags || 'N/A',
                     bio: Bio || 'N/A',
-                    profilePicture: profilePictureUrl, // Assign the correct profile picture URL
+                    profilePicture: profilePictureUrl, 
                 });
             } else {
                 console.error('No data received from backend');

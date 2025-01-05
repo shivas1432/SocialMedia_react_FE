@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import '../css/profile1.css'; // Import your CSS file for styles
+import '../css/profile1.css'; 
 
 const Profile = () => {
     const [file, setFile] = useState(null);
@@ -13,7 +13,7 @@ const Profile = () => {
 
     useEffect(() => {
         const fetchUserData = async () => {
-            const email = 'user@example.com'; // Replace with logic to get the logged-in user's email
+            const email = 'user@example.com'; 
             try {
                 const response = await axios.get(`http://localhost:8081/api/profile/${email}`);
                 const { nickname, tags, bio, profilePicture } = response.data;
@@ -55,7 +55,7 @@ const Profile = () => {
 
         try {
             const email = 'user@example.com'; // Replace with actual user email retrieval logic
-            formData.append('Email', email); // Use 'Email' with a capital 'E'
+            formData.append('Email', email); // Use 'Email' with a capital 'E' if any logging issue
 
             const response = await axios.post('http://localhost:8081/api/profile/update', formData, {
                 headers: {

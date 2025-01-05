@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Social Media Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A social media web application built with React.js for the frontend and Node.js/Express for the backend. This app allows users to register, log in, view posts, and update their profiles.
 
-## Available Scripts
+This is my first React application, and I've built it as a learning project to get hands-on experience with modern web development using React, Node.js, and other related technologies.
 
-In the project directory, you can run:
+Initially, my plan was to create both features (Social Media application and Chat application) as part of the same project. However, for practice and learning purposes, I decided to split them into two separate applications. Both applications share the same basic architecture (React for the frontend, Node.js/Express for the backend), but each focuses on a specific set of functionalities.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- User Registration
+- User Login
+- Profile Management (Edit Nickname, Bio, Tags, Profile Picture)
+- View and Load Posts
+- Pagination for Posts
+- User Authentication with JWT Tokens
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prerequisites
 
-### `npm test`
+Ensure that you have the following installed on your local machine:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js
+- npm
+- SQL workbench
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the repository to your local machine:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bashgit clone https://github.com/shivas1432/SMfrontend.git
+cd social-media
 
-### `npm run eject`
+2. Backend Setup
+Install Backend Dependencies
+Navigate to the backend directory and install the dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copy code
+cd backend
+npm install
+Start Backend Server
+Run the backend server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
+Copy code
+npm run dev
+The backend will be available at http://localhost:8081.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Frontend Setup
+Install Frontend Dependencies
+Navigate to the frontend directory and install the dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+Copy code
+cd frontend cd client
+npm install
+Start Frontend Server
+Run the frontend development server:
 
-## Learn More
+bash
+Copy code
+npm start
+The frontend will be available at http://localhost:3000.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+File Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+social-media-web-app/
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── server.js
+│   └── .env
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── css/
+│   │   └── App.js
+    ├── README.md
 
-### Code Splitting
+API Endpoints
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+POST /api/register: Register a new user.
+POST /api/login: Log in and authenticate the user.
+GET /api/user: Fetch user details.
+POST /api/profile/update: Update user profile.
+GET /api/posts: Fetch posts (supports pagination).
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Troubleshooting
+CORS Issues: Ensure that the backend is configured to allow cross-origin requests, especially if running the frontend and backend on different ports.
+JWT Token Expiration: Make sure your frontend handles token expiration properly and refreshes the token if needed.

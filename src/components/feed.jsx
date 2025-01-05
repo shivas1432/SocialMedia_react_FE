@@ -15,7 +15,7 @@ const Feed = () => {
             </div>
             <div className="video-container">
                 <video
-                    src="/media.mp4" // Replace with the actual video path
+                    src="/media.mp4" // Replacing place for video path
                     autoPlay
                     muted
                     loop

@@ -37,7 +37,7 @@ const Login = () => {
         // Extract user information from the response
         const { message, user } = response.data; // Update based on your API response structure
 
-        // Store email and token in localStorage if they exist
+        // Store email and token in localStorage if exists
         if (user) {
             localStorage.setItem('email', user.email);
             // Make sure to handle the token if your API provides it
@@ -84,7 +84,7 @@ navigate('/feed1', { state: { userEmail: user.email } });
             name="password"
             value={formData.password}
             onChange={handleChange}
-            required // Ensures the field is required
+            required //
           />
           {errors.password && <p className="error-text">{errors.password}</p>}
         </div>
