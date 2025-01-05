@@ -29,7 +29,8 @@ Ensure that you have the following installed on your local machine:
 
 Clone the repository to your local machine:
 
-```bashgit clone https://github.com/shivas1432/SMfrontend.git
+```bash
+git clone https://github.com/shivas1432/SMfrontend.git
 cd social-media
 
 2. Backend Setup
