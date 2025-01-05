@@ -29,7 +29,6 @@ Ensure that you have the following installed on your local machine:
 
 Clone the repository to your local machine:
 
-```bash
 git clone https://github.com/shivas1432/SMfrontend.git
 cd social-media
 
@@ -37,14 +36,10 @@ cd social-media
 Install Backend Dependencies
 Navigate to the backend directory and install the dependencies:
 
-bash
-
 cd backend
 npm install
 Start Backend Server
 Run the backend server:
-
-bash
 
 npm run dev
 The backend will be available at http://localhost:8081.
@@ -53,14 +48,11 @@ The backend will be available at http://localhost:8081.
 Install Frontend Dependencies
 Navigate to the frontend directory and install the dependencies:
 
-bash
-
 cd frontend cd client
 npm install
 Start Frontend Server
-Run the frontend development server:
 
-bash
+Run the frontend development server:
 
 npm start
 The frontend will be available at http://localhost:3000.
